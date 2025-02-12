@@ -1,3 +1,6 @@
+### Note ###
+#! This code was created only as a test to prove the correct connection between Terraform and the AWS account
+
 terraform {
   required_providers {
     aws = {
