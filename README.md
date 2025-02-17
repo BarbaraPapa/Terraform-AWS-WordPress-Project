@@ -49,7 +49,7 @@ Make sure you have:
 4. **Apply the Configuration**
     
     ```sh
-    terraform apply -auto-approve
+    terraform apply 
     ```
     
 5. **Retrieve the WordPress Site IP**
@@ -63,7 +63,7 @@ Make sure you have:
 To destroy the created infrastructure:
 
 ```sh
-terraform destroy -auto-approve
+terraform destroy 
 ```
 
 ## Security Considerations
