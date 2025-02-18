@@ -6,6 +6,8 @@ Scalable, Fault-Tolerant and Highly Available WordPress on AWS using Free Tier
 This project uses **Terraform** to deploy a scalable and fault-tolerant architecture on **AWS**, designed to host a **WordPress** site. The infrastructure includes **EC2, RDS, ALB, S3**, and an **Auto Scaling** system.
 
 ## Project Structure
+![Screenshot 2025-02-10 133610](https://github.com/user-attachments/assets/3c1bf274-f419-4a1c-8d57-80820681c81e)
+
 
 The project is organized as follows:
 
