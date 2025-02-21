@@ -2,9 +2,9 @@
 
 # **Scalable and Fault-Tolerant WordPress Web Site on AWS**
 
-- **Project created by** <span style="color: #3598db;">**Barbara Papa**</span>
-- **Course:** <span style="color: #3598db;">**AWS Cloud Computing**</span>
-- **Teachers:** <span style="color: #3598db;">**Vijay Anandh, Michael Wagener**</span>
+- Project created by **Barbara Papa**
+- Course: **AWS Cloud Computing**
+- Teachers: **Vijay Anandh, Michael Wagener**
 
 * * *
 
@@ -78,15 +78,19 @@ Hosting WordPress on a single EC2 instance can lead to **downtime, performance b
 
 ## **2\. Methodology & Techniques**
 
-- **Infrastructure as Code (IaC):** Most of the infrastructure was provisioned using <span style="color: #3598db;">**Terraform**</span>, ensuring consistency, automation, and easy replication.
-- **Manual Configuration:** Some AWS services, including **CloudWatch, Route 53, CloudFront, and Multi-AZ RDS**, were configured manually via the <span style="color: #3598db;">**AWS Management Console**</span> to fine-tune settings and ensure proper integration.
-- **Version Control:** <span style="color: #3598db;">**GitHub**</span> was used to store and track Terraform configurations and infrastructure changes.
-- **Automation & CLI:** <span style="color: #3598db;">**AWS CLI**</span> was used alongside Terraform for managing AWS resources and quick configuration tasks.
-- **Diagramming & Planning:** <span style="color: #3598db;">**draw.io**</span> was used to design the architecture diagram, while <span style="color: #3598db;">**Trello**</span> helped track tasks and project progress.
+- **Infrastructure as Code (IaC):** Most of the infrastructure was provisioned using **Terraform**, ensuring consistency, automation, and easy replication.
+- **Manual Configuration:** 
+    - Some AWS services, including **CloudWatch, Route 53, CloudFront, and Multi-AZ RDS**, were configured manually via the **AWS     Management Console** to fine-tune settings and ensure proper integration.
+- **Version Control:** 
+    - **GitHub** was used to store and track Terraform configurations and infrastructure changes.
+- **Automation & CLI:** 
+    - **AWS CLI** was used alongside Terraform for managing AWS resources and quick configuration tasks.
+- **Diagramming & Planning:** 
+    - **draw.io** was used to design the architecture diagram, while **Trello** helped track tasks and project progress.
 - **Development & Deployment:**
-    - <span style="color: #3598db;">**Visual Studio Code**</span> was the primary development environment for writing Terraform scripts and managing configurations.
-    - <span style="color: #3598db;">**XAMPP**</span> was used to create the website which was then migrated to the EC2 instance
-    - <span style="color: #3598db;">**WordPress**</span> was configured on AWS EC2 instances and used to build the website
+    - **Visual Studio Code** was the primary development environment for writing Terraform scripts and managing configurations.
+    - **XAMPP** was used to create the website which was then migrated to the EC2 instance
+    - **WordPress** was configured on AWS EC2 instances and used to build the website
 
 By combining **Terraform for automation** with **manual fine-tuning of key AWS services**, the project achieved a **balance between flexibility, control, and cost efficiency**, ensuring a **resilient WordPress deployment** on AWS.
 
@@ -196,7 +200,7 @@ cidr_block = "10.0.0.0/16"
 
 ### Security Groups
 
-Security rules allow HTTP access on port 80 and SSH on 22 (NOTE: <span style="color: #3598db;">SSH on 22 "0.0.0.0/0" is <span>for testing only</span></span>):
+Security rules allow HTTP access on port 80 and SSH on 22 (NOTE: **SSH on 22 "0.0.0.0/0" is for testing only**):
 
 ```
 resource "aws_security_group" "ec2_security_group" {
@@ -448,11 +452,11 @@ After testing, minor tweaks were made to **security groups**, **scaling policies
 
 ### Security Considerations:
 
-- **Database credentials <span style="color: #3598db;">should not be hardcoded</span>**
-- **SSH access to `0.0.0.0/0` <span style="color: #3598db;">should be restricted</span> for production environments**
+- **Database credentials should not be hardcoded**
+- **SSH access to `0.0.0.0/0` should be restricted for production environments**
 - **Auto Scaling should be monitored to avoid excessive costs**
 
-&nbsp;<span style="color: #2dc26b;"><span style="color: #000000;">Finally, all configurations were documented to ensure maintainability.</span></span>
+
 
 * * *
 
@@ -508,7 +512,7 @@ After testing, minor tweaks were made to **security groups**, **scaling policies
 
 * * *
 
-## <span style="color: #000000;">**<span>8\. References</span>**</span>
+## **References**
 
 **AWS Documentation:**  https://docs.aws.amazon.com/
 
