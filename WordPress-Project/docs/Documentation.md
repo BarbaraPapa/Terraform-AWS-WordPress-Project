@@ -94,7 +94,7 @@ By combining **Terraform for automation** with **manual fine-tuning of key AWS s
 
 ## **3\. Architecture**
 
-<img src="../../_resources/aws.png" alt="aws.png" width="686" height="437" class="jop-noMdConv">
+![Project Architecture](image.png)
 
 **Interaction Between Components**
 
