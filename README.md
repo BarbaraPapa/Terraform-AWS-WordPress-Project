@@ -5,7 +5,7 @@ Scalable, Fault-Tolerant and Highly Available WordPress Website on AWS using Fre
 
 This project uses **Terraform** to deploy a scalable and fault-tolerant architecture on **AWS**, designed to host a **WordPress** site. The infrastructure includes **EC2, RDS, ALB, S3**, and an **Auto Scaling** system.
 
-- Read the [Project Documentation](./docs/documentation.md)
+- Read the [Project Documentation](WordPress-Project\docs\Documentation.md)
 
 
 ## Project Structure
