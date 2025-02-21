@@ -1,4 +1,4 @@
-&nbsp;
+
 
 # **Scalable and Fault-Tolerant WordPress Web Site on AWS**
 
