@@ -82,7 +82,7 @@ terraform destroy
 
 ![Screenshot 2025-02-18 105454](https://github.com/user-attachments/assets/bb8f7b28-020b-4732-93c2-91fd4bc5cbf6)
 
-### This project has been enhanced by incorporating the following AWS services using the **AWS console**  ( Read the [Project Documentation](./docs/documentation.md) for more details ) :
+### This project has been enhanced by incorporating the following AWS services using the **AWS console**  ( Read the [Project Documentation](./WordPress-Project/docs/Documentation.md) for more details ) :
 
 - **Amazon RDS** (MySQL Multi-AZ): Provides a managed, highly available database.
 
